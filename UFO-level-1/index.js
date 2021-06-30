@@ -17,7 +17,7 @@ data.forEach(function(ufo) {
     });
 });
 
-var button=d2.select('#filter-btn');
+var button=d3.select('#filter-btn');
 
 button.on('click', function(event){
   d3.event.preventDefault();
